@@ -77,9 +77,9 @@ section{
     }
 }
 
-@media(max-width: 600px){
-    header #menu-icon{ 
-        display: block;
+@media(max-width: 600px){}
+    .section-title{
+        font-size: 2rem;
     }
     .nav-links{
         position: absolute;
