@@ -1,0 +1,50 @@
+*{
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    text-decoration: none;
+    scroll-behavior:smooth;
+    list-style: none;
+    background-color: aquamarine;
+}
+section{
+    min-height: 100vh;
+    padding: 8rem 12%;
+    width: 100%;
+    position: relative;
+}
+.section-title{
+    text-align:center;
+    font-size: 3rem;
+    font-weight:600rem;
+    margin-bottom:1rem;
+}
+.Shopify2 {
+    display:flex;
+    justify-content: left;
+    align-items: left;
+    flex-wrap: wrap;
+    text-align: left;
+}
+.Shopify2 img{
+    width: 450px;
+    height: 200px;
+    border-radius: 13px;
+    border-radius: 2px solid;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+}
+.Shopify2 img :hover{
+    filter: grayscale(1);
+    transform: (1.03);
+}
+.Shopify2 p{
+    background: linear-gradient(to right,rgb(255,0,255),rgb(0,157,255));
+    background-clip: text;
+    color: transparent;
+    font-size: 1.5rem;
+    display:block;
+    justify-content: left;
+}
